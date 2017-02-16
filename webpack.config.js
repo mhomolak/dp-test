@@ -44,7 +44,7 @@ module.exports = {
     loaders: [
       {
         test: /\.scss$/,
-        loader: 'style!css!sass' // sass -> css -> javascript -> inline style
+        loader: 'style!css?modules!sass' // sass -> css -> javascript -> inline style
       },
       {
         test: /\.js$/,
