@@ -1,7 +1,7 @@
 import '../scss/component-specific.scss';
 
 import React from 'react';
-import { Button } from 'react-toolbox/lib/button';
+import { DatePicker } from 'react-toolbox/lib/date_picker';
 
 class ComponentOwner extends React.Component {
 
@@ -17,9 +17,9 @@ class ComponentOwner extends React.Component {
   render() {
 
     return (
-      <div>
-        <Button label="test" />
-      </div>
+      <section>
+        <DatePicker label="Pick a date" />
+      </section>
     )
   }
 

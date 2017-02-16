@@ -79,6 +79,7 @@
     "node-sass": "~3.7.0",
     "pearson-elements": "^1.4.2",
     "react": "^15.0.0",
+    "react-addons-css-transition-group": "^15.4.2",
     "react-addons-test-utils": "^15.0.0",
     "react-dom": "^15.0.0",
     "react-toolbox": "^1.3.4",

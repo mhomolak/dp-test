@@ -12,7 +12,7 @@ export default class MyComponent {
   init(config) {
 
     ReactDOM.render(
-      <ComponentOwner data={config} />,
+      <ComponentOwner />,
       document.getElementById(config.elementId)
     );
   }
